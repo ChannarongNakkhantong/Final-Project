@@ -1,16 +1,16 @@
-EmployeeName, EvaluationResult, EvaluationDate, Feedback
-John Doe,Excellent,2025-08-01,Great performance in team collaboration
-Jane Smith,Good,2025-08-03,Needs improvement in punctuality
-Bob Brown,Average,2025-08-05,Average work but cooperative
-Alice Johnson,Poor,2025-08-07,Lacks attention to detail
-Charlie White,Excellent,2025-08-09,Strong leadership skills
-Emily Davis,Good,2025-08-11,Consistent but can improve creativity
-Frank Miller,Average,2025-08-13,Meets expectations but slow at times
-Grace Wilson,Excellent,2025-08-15,Great problem-solving ability
-Henry Taylor,Poor,2025-08-17,Frequent absences from work
-Ivy Anderson,Good,2025-08-19,Positive attitude, needs more training
-Jack Thomas,Excellent,2025-08-21,Highly productive and reliable
-Kelly Harris,Average,2025-08-23,Okay performance, room for growth
-Liam Martin,Good,2025-08-25,Good technical skills
-Mia Clark,Excellent,2025-08-27,Very innovative ideas
-Noah Lewis,Poor,2025-08-29,Struggles with teamwork
+"EmployeeName", "EvaluationResult", "EvaluationDate", "Feedback"
+"John Doe", "Excellent", "2025-08-01", "Great performance in team collaboration"
+"Jane Smith", "Good", "2025-08-03", "Needs improvement in punctuality"
+"Bob Brown", "Average", "2025-08-05", "Average work but cooperative"
+"Alice Johnson", "Poor", "2025-08-07", "Lacks attention to detail"
+"Charlie White", "Excellent", "2025-08-09", "Strong leadership skills"
+"Emily Davis", "Good", "2025-08-11", "Consistent but can improve creativity"
+"Frank Miller", "Average", "2025-08-13", "Meets expectations but slow at times"
+"Grace Wilson", "Excellent", "2025-08-15", "Great problem-solving ability"
+"Henry Taylor", "Poor", "2025-08-17", "Frequent absences from work"
+"Ivy Anderson", "Good", "2025-08-19", "Positive attitude, needs more training"
+"Jack Thomas", "Excellent", "2025-08-21", "Highly productive and reliable"
+"Kelly Harris", "Average", "2025-08-23", "Okay performance, room for growth"
+"Liam Martin", "Good", "2025-08-25", "Good technical skills"
+"Mia Clark", "Excellent", "2025-08-27", "Very innovative ideas"
+"Noah Lewis", "Poor", "2025-08-29", "Struggles with teamwork"

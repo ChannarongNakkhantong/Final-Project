@@ -79,14 +79,15 @@ void display_all() {
     printf("-------------------------------\n");
 }
 
-// เพิ่มข้อมูลใหม่
-//void add_evaluation()
-
-// อัปเดตข้อมูล
-//void update_evaluation()
-
-// ลบข้อมูล
-//void delete_evaluation()
+void add_evaluation() {
+    printf("ฟังก์ชัน add_evaluation() ยังไม่ทำ\n");
+}
+void update_evaluation() {
+    printf("ฟังก์ชัน update_evaluation() ยังไม่ทำ\n");
+}
+void delete_evaluation() {
+    printf("ฟังก์ชัน delete_evaluation() ยังไม่ทำ\n");
+}
 
 // ค้นหาข้อมูล
 void search_evaluation() {

@@ -79,8 +79,32 @@ void display_all() {
     printf("-------------------------------\n");
 }
 
+// เพิ่มข้อมูลใหม่
 void add_evaluation() {
-    printf("ฟังก์ชัน add_evaluation() ยังไม่ทำ\n");
+    if (count >= MAX) {
+        printf("จำนวนพนักงานเต็มแล้ว\n");
+        return;
+    }
+
+    getchar();
+    printf("ชื่อพนักงาน: ");
+    fgets(employees[count].name, sizeof(employees[count].name), stdin);
+    employees[count].name[strcspn(employees[count].name, "\n")] = 0;
+
+    printf("ผลการประเมิน (Excellent/Good/Average/Poor): ");
+    fgets(employees[count].result, sizeof(employees[count].result), stdin);
+    employees[count].result[strcspn(employees[count].result, "\n")] = 0;
+
+    printf("วันที่ประเมิน (YYYY-MM-DD): ");
+    fgets(employees[count].date, sizeof(employees[count].date), stdin);
+    employees[count].date[strcspn(employees[count].date, "\n")] = 0;
+
+    printf("ข้อเสนอแนะ: ");
+    fgets(employees[count].feedback, sizeof(employees[count].feedback), stdin);
+    employees[count].feedback[strcspn(employees[count].feedback, "\n")] = 0;
+
+    count++;
+    printf("เพิ่มข้อมูลเรียบร้อย!\n");
 }
 void update_evaluation() {
     printf("ฟังก์ชัน update_evaluation() ยังไม่ทำ\n");

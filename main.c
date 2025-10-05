@@ -106,8 +106,33 @@ void add_evaluation() {
     count++;
     printf("เพิ่มข้อมูลเรียบร้อย!\n");
 }
+// อัปเดตข้อมูล
 void update_evaluation() {
-    printf("ฟังก์ชัน update_evaluation() ยังไม่ทำ\n");
+    char keyword[50];
+    getchar();
+    printf("ใส่ชื่อพนักงานที่ต้องการอัปเดต: ");
+    fgets(keyword, sizeof(keyword), stdin);
+    keyword[strcspn(keyword, "\n")] = 0;
+
+    int found = 0;
+    for (int i = 0; i < count; i++) {
+        if (strcmp(employees[i].name, keyword) == 0) {
+            found = 1;
+            printf("ผลการประเมินใหม่: ");
+            fgets(employees[i].result, sizeof(employees[i].result), stdin);
+            employees[i].result[strcspn(employees[i].result, "\n")] = 0;
+
+            printf("ข้อเสนอแนะใหม่: ");
+            fgets(employees[i].feedback, sizeof(employees[i].feedback), stdin);
+            employees[i].feedback[strcspn(employees[i].feedback, "\n")] = 0;
+
+            printf("อัปเดตเรียบร้อย!\n");
+            break; // อัปเดตพนักงานคนแรกที่เจอ
+        }
+    }
+    if (!found) printf("ไม่พบพนักงานชื่อดังกล่าว\n");
+}
+
 // ลบข้อมูล
 void delete_evaluation() {
     char keyword[50];
